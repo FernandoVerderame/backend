@@ -1,0 +1,62 @@
+@import '~bootstrap/scss/bootstrap';
+@import'_colors';
+@import '_index';
+@import '_login';
+@import '_font';
+@import '_nav';
+@import '_button';
+@import '_show';
+@import '_form';
+@import '_pagination';
+@import '_statistic';
+
+/* BODY */
+body {
+  visibility: visible;
+  font-family: 'Manrope Variable', sans-serif;
+}
+
+/* COLORE PRINCIPALE DEL TESTO */
+.c-main {
+  color: $main500;
+}
+
+/* ??? */
+.c-main-6 {
+  color: #cc484c;
+}
+
+/* BORDO BOTTONI */
+.btn-sec {
+  border: 1px solid #FF5A5F;
+}
+
+/* ??? */
+.search {
+  border: 1px solid rgb(216, 216, 216);
+  padding: 10px;
+  border-radius: 60px;
+}
+
+/* ??? */
+.search-button {
+  border-radius: 38px;
+}
+
+/* IMMAGINE DI PROFILO */
+.profile-photo {
+  width: 300px;
+  height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse {
+    background-color: whitesmoke;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 350px;
+    justify-content: end;
+    margin-left: auto;
+  }
+}

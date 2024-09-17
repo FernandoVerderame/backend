@@ -1,0 +1,117 @@
+/* SEZIONE DETTAGLI */
+#detail {
+
+    /* RECIPIENTE IMMAGINE DI COPERTINA */
+    .thumb-img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 25px;
+
+        /* IMMAGINE COPERTINA */
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 15px;
+        }
+    }
+
+    p {
+
+        /* INDIRIZZO */
+        .road {
+            font-size: 20px;
+        }
+    }
+
+    /* DETTAGLI */
+    .stats {
+        font-size: 20px;
+        color: #737373;
+    }
+
+    /* LISTA */
+    ul {
+        padding: 0;
+
+        /* LISTA DETTAGLI */
+        .badge {
+            color: black;
+            font-size: 15px;
+            background-color: #F2F2F2;
+        }
+    }
+}
+
+/* PROMOZIONE */
+#promo {
+
+    /* COLORE CARD */
+    .card {
+        background-color: $main100;
+
+        /* LOGO */
+        .card-image {
+            padding: 4px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        /* GRANDEZZA IMMAGINE */
+        img {
+            height: 22px;
+            vertical-align: text-bottom;
+        }
+
+        /* TESTO */
+        h3 {
+            color: $main500;
+        }
+
+        /* PARAGRAFO */
+        p {
+            font-size: 15px;
+        }
+    }
+}
+
+/* SPOSORIZZAZIONE */
+#sponsor {
+
+    .sponsor-type {
+        color: goldenrod;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .subscription {
+        color: green;
+    }
+
+    .remove-subscription {
+        color: $main500;
+    }
+}
+
+/* MAPPA */
+.map-box {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RECIPIENTE MAPPA */
+#mapModal {
+    height: 1000px;
+    width: 100%;
+}
+
+/* CARD DELLA SPONSORIZZAZIONE ATTIVA */
+.bg-card {
+    // background-color: rgb(249, 234, 150);
+}

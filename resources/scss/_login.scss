@@ -1,0 +1,27 @@
+/* GRANDEZZA PAGINA LOGIN */
+#login-form {
+  height: calc(100vh - 65px);
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+/* IMMAGINE LOGIN */
+#img-login {
+  background-image: url(../img/form.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ??? */
+.white {
+  --bs-bg-opacity: 0;
+  background-color: #fff;
+}
+
+/* GRANDEZZA ROW DELLA LOGIN */
+#row-login {
+  height: calc(100vh - 30px);
+}
+

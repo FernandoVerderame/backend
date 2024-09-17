@@ -1,0 +1,12 @@
+/* ???? */
+.page-link{
+  background-color: white;
+  color: black;
+}
+
+.page-link.active, .active > .page-link {
+  z-index: 3;
+  color: var(--bs-pagination-active-color);
+  background-color: #FF5A5F;
+  border-color:grey;
+}

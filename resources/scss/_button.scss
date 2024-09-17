@@ -1,0 +1,52 @@
+/* COLORE PRINCIPALE */
+.bg-main {
+  background-color: $main500;
+}
+
+/* EFFETTO HOVER AL BOTTONE */
+.bg-hover {
+  background-color: $main500;
+
+  &:hover {
+    background-color: $main300;
+  }
+}
+
+/* BOTTONE CESTINO */
+.bg-hover-rev {
+  background-color: white;
+  border: 1px solid $main500;
+
+  &:hover {
+    border: 1px solid $main200;
+    color: $main700;
+    background-color: $main200;
+  }
+}
+
+/* BOTTONE EDIT E TRASH */
+.bg-icon {
+  background-color: $main100;
+  color: $main600;
+
+  &:hover {
+    background-color: $main300;
+  }
+}
+
+.dashbutton{
+  background-color:$main100;
+  color: $main600;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+/* COLORE CHECK SERVIZI */
+.icon-show {
+  color: $main500;
+}
+
+/* COLORE AI SERVIZI NON DISPONIBILI */
+.disable {
+  color: rgb(184, 184, 184);
+}

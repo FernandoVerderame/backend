@@ -1,0 +1,36 @@
+/* COLORE DELLA NAVIGAZIONE */
+.color-link {
+    color: $main500;
+
+    &:hover {
+        color: $main300;
+    }
+}
+
+/* INPUT CON ICONE */
+.input-container {
+    position: relative;
+
+    .icon {
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: rgb(165, 164, 164);
+    }
+}
+
+/* COLORE DEI CHECKBOX */
+.form-check-input:checked {
+    background-color: $main500;
+    border-color: $main500;
+}
+
+/* LISTA SUGGERIMENTO PER INDIRIZZO */
+#suggestions {
+    background-color: #f3f2f2;
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
