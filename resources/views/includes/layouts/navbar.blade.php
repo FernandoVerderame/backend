@@ -47,7 +47,7 @@
                     <li class="nav-item mx-2">
                         {{-- PANNELLO DI CONTROLLO --}}
                         <a class="nav-link @if (Route::is('welcome') || Route::is('admin.statistic*')) active @endif"
-                            href="{{ route('welcome') }}">{{ __('Pannello di Controllo') }}</a>
+                            href="{{ route('welcome') }}">{{ __('Dashboard') }}</a>
                     </li>
                     <li class="nav-item mx-2">
                         {{-- APPARTAMENTI --}}
